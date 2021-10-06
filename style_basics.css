@@ -1,0 +1,75 @@
+
+html{
+	margin: 0;
+}
+
+head {
+    padding: 20px;
+}
+
+.show{
+    display: none;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: #fffbe4;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    height: 90vh;
+}
+
+h1{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: large;
+}
+
+h2{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: large;
+    color: rgb(255, 0, 0);
+}
+
+.content{
+    display: none;
+  }
+
+.basics{
+    display: none;
+    background-color: #fffbe444;
+    border-radius: 10px;
+    flex-direction: row;
+    align-items: top;
+  }
+
+.project_description {
+    font-size: 10pt; 
+    width: 48%;
+      margin: 10px;
+      display: inline-block;
+  }
+
+.project_video{
+    width: 48%;
+    height: 75%;
+    min-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    vertical-align: top;
+}
+
+table { 
+    border-spacing: 15px;
+    border-collapse: separate;
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+    align-items: left;
+    vertical-align: top;
+    font-size: 16px;
+  }

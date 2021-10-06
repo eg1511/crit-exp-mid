@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Type of Bonsai</title>
+    <link href="style_type.css" rel="stylesheet">
+
+</head>
+<body>
+    <h1> Choosing your Bonsai </h1>
+    <form name="form1" id="form1"> <!-- add action="/action_page.php" for action -->  
+        Select the type of climate you live in: <select name="climate" id="climate">
+          <option value="" selected="selected">Select the type of climate</option>
+        </select>
+        <br><br>
+        Select the type of Bonsai you would like: (Indoor or Outdoor) <select name="placement" id="placement">
+          <option value="" selected="selected">Please select climate first</option>
+        </select>
+        <br><br>
+        Select the Type of Tree you would like: <select name="tree" id="tree">
+          <option value="" selected="selected">Please select placement first</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Submit" onclick="results()" value="enter/">
+      </form>
+      <br>
+      <br>
+      <div id="show">
+      The type of tree you should get are: 
+      <br>
+      <br>
+        <table>
+        <tr>
+          <th>Climate</th>
+          <th>Placement</th>
+          <th>Tree Type</th>
+          <th>Name</th>
+          <th>Link</th>
+        </tr>
+        <tr>
+          <td>Desert</td>
+          <td>Outdoor</td>
+          <td>Shouhaku/Conifer</td>
+          <td>Hinoki Cypress</td>
+          <td><a href="tree_example.html" target="_self">Link</a></td>
+        </tr>
+        <td>Desert</td>
+        <td>Outdoor</td>
+        <td>Shouhaku/Conifer</td>
+        <td>Juniper</td>
+        <td><a href="tree_example.html" target="_self">Link</a></td>
+    </table>
+  </div>
+
+  <script type="text/javascript" src="script_types.js"></script>
+</body>
+</html>
